@@ -26,7 +26,7 @@ class giphyAPI {
   if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  
   return body;
   }
-  async random() {
+  async random(tag) {
     if (!tag) throw new Error("Bir Şeyler Girmeniz Gerek")
   const { body } = await request.get("http://api.giphy.com/v1/gifs/translate?api_key=" + this.key + "&tag=" + tag);
   if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  

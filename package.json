@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UmutKiziloglu/giphy-api.git"
+    "url": "git+https://github.com/UmutKiziloglu/node-giphy-api.git"
   },
   "keywords": [
     "giphy-api",
@@ -20,9 +20,9 @@
   "author": "UmutKiziloglu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UmutKiziloglu/giphy-api/issues"
+    "url": "https://github.com/UmutKiziloglu/node-giphy-api/issues"
   },
-  "homepage": "https://github.com/UmutKiziloglu/giphy-api#readme",
+  "homepage": "https://github.com/UmutKiziloglu/node-giphy-api#readme",
   "dependencies": {
     "node-superfetch": "^0.1.10"
   }
