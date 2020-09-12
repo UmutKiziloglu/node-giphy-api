@@ -8,9 +8,9 @@ class giphyAPI {
   if(!this.key) throw new Error('Key Girilmemiş!');
  }
   
-  async search() {
-    if (!query) throw new Error("Bir Şeyler Girmeniz Gerek")
-  const { body } = await request.get("http://api.giphy.com/v1/gifs/search?api_key=" + this.key + "&q=" + query);
+  async search(search) {
+    if (!search) throw new Error("Bir Şeyler Girmeniz Gerek")
+  const { body } = await request.get("http://api.giphy.com/v1/gifs/search?api_key=" + this.key + "&q=" + search);
   if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  
   return body;
   }
@@ -20,9 +20,9 @@ class giphyAPI {
   if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  
   return body;
   }
-  async translate() {
-    if (!query) throw new Error("Bir Şeyler Girmeniz Gerek")
-  const { body } = await request.get("http://api.giphy.com/v1/gifs/translate?api_key=" + this.key + "&s=" + query);
+  async translate(translate) {
+    if (!translate) throw new Error("Bir Şeyler Girmeniz Gerek")
+  const { body } = await request.get("http://api.giphy.com/v1/gifs/translate?api_key=" + this.key + "&s=" + translate);
   if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  
   return body;
   }
