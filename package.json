@@ -1,0 +1,29 @@
+{
+  "name": "node-giphy-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmutKiziloglu/giphy-api.git"
+  },
+  "keywords": [
+    "giphy-api",
+    "api-giphy",
+    "oxygenapi",
+    "api",
+    "oxygenbot"
+  ],
+  "author": "UmutKiziloglu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UmutKiziloglu/giphy-api/issues"
+  },
+  "homepage": "https://github.com/UmutKiziloglu/giphy-api#readme",
+  "dependencies": {
+    "node-superfetch": "^0.1.10"
+  }
+}
