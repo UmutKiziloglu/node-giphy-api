@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/UmutKiziloglu/node-giphy-api#readme",
   "dependencies": {
-    "node-superfetch": "^0.1.10"
+    "node-superfetch": "^0.1.11"
   }
 }
